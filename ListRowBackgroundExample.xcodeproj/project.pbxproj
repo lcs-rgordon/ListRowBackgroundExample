@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		0E384E30273D2FD400B14153 /* ListRowBackgroundExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E384E2F273D2FD400B14153 /* ListRowBackgroundExampleApp.swift */; };
-		0E384E32273D2FD400B14153 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E384E31273D2FD400B14153 /* ContentView.swift */; };
 		0E384E34273D2FD600B14153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E384E33273D2FD600B14153 /* Assets.xcassets */; };
 		0E384E37273D2FD600B14153 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E384E36273D2FD600B14153 /* Preview Assets.xcassets */; };
+		0E384E40273D2FFC00B14153 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E384E3F273D2FFC00B14153 /* Team.swift */; };
+		0E384E43273D30D200B14153 /* TeamsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E384E42273D30D200B14153 /* TeamsListView.swift */; };
+		0E384E45273D30F800B14153 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E384E44273D30F800B14153 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E384E2C273D2FD400B14153 /* ListRowBackgroundExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListRowBackgroundExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E384E2F273D2FD400B14153 /* ListRowBackgroundExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowBackgroundExampleApp.swift; sourceTree = "<group>"; };
-		0E384E31273D2FD400B14153 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E384E33273D2FD600B14153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E384E36273D2FD600B14153 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E384E3F273D2FFC00B14153 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		0E384E42273D30D200B14153 /* TeamsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListView.swift; sourceTree = "<group>"; };
+		0E384E44273D30F800B14153 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				0E384E2F273D2FD400B14153 /* ListRowBackgroundExampleApp.swift */,
-				0E384E31273D2FD400B14153 /* ContentView.swift */,
+				0E384E3E273D2FED00B14153 /* Model */,
+				0E384E3D273D2FE500B14153 /* Views */,
 				0E384E33273D2FD600B14153 /* Assets.xcassets */,
 				0E384E35273D2FD600B14153 /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				0E384E36273D2FD600B14153 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E384E3D273D2FE500B14153 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E384E42273D30D200B14153 /* TeamsListView.swift */,
+				0E384E44273D30F800B14153 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E384E3E273D2FED00B14153 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E384E3F273D2FFC00B14153 /* Team.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E384E32273D2FD400B14153 /* ContentView.swift in Sources */,
+				0E384E40273D2FFC00B14153 /* Team.swift in Sources */,
+				0E384E45273D30F800B14153 /* DetailView.swift in Sources */,
 				0E384E30273D2FD400B14153 /* ListRowBackgroundExampleApp.swift in Sources */,
+				0E384E43273D30D200B14153 /* TeamsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

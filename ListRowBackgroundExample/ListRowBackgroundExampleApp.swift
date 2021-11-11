@@ -11,7 +11,9 @@ import SwiftUI
 struct ListRowBackgroundExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                TeamsListView()
+            }
         }
     }
 }
