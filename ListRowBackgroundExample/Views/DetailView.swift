@@ -18,13 +18,14 @@ struct DetailView: View {
             
             // Layer 1
             item.color
-                .edgesIgnoringSafeArea(.all)
+                .edgesIgnoringSafeArea([.leading, .trailing, .bottom])
             
             // Layer 2
             Text(item.name)
                 .font(.title)
             
         }
+        .navigationTitle(item.name)
     }
 }
 
